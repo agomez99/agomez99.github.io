@@ -1,0 +1,74 @@
+body {
+    color: black;
+    background-color: white;
+    text-align: left;
+    margin-left: 5%;
+    margin-top:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.jumbotron-fluid{
+    color:teal;
+
+}
+  h2{
+   font-size: 20px;
+}
+  #citysearch{
+    color: black;
+    font-size: 25pt;
+  }
+  .query_btn{
+    font-size:30px;
+    color:teal;
+    margin-left:90%;
+  }
+  .btn.btn-secondary {
+    color: black;
+    padding: 10px;
+    border-color: grey;
+    width: 23rem;
+    text-align: left;
+  }
+
+.sa,.la, .london, .ca, .juno, .atx, .seattle{
+color: black;
+width:200px;
+    text-align: left;
+    padding:20px;
+background : white;
+}
+
+.container{
+margin-left:10%;
+
+}
+#temperature{
+font-size:30px;
+}
+  * {
+    box-sizing: border-box;
+  }
+  .column {
+    float:left;
+    padding: 0 5px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  /* cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    font-size:10px;
+    text-align: center;
+    max-width: 100%;
+    color:white;
+    background-color:blue;
+    width:20em;
+    height:200px;
+
+  }
